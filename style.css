@@ -1,0 +1,15 @@
+.column-hob_badges {
+  position:relative; overflow: visible !important;
+  width:43px;
+}
+.column-hob_badges .badge {
+  background-image: url('home-badges.png'); background-repeat:no-repeat; 
+  width:43px; height:43px; 
+  position: absolute; top:-1px; right:0px;
+}
+.column-hob_badges .badge.posts {
+  background-position:-43px 0px;
+}
+.column-hob_badges .badge.front {
+  background-position:-43px -43px;
+}
