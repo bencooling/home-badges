@@ -5,9 +5,6 @@ class hob_Admin {
   public function __construct(){
     add_action( 'admin_init',             array($this, 'admin_init') );
     add_action( 'admin_enqueue_scripts',  array($this, 'admin_enqueue_scripts') );
-    if ( !class_exists('Mustache') ) {
-      require(HOBADGES_DIR_PATH . '/Mustache.php'); 
-    }
   }
     
   public function admin_init() {
