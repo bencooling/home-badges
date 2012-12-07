@@ -21,7 +21,7 @@ Now you can display an elegant badge so you'll never lose it again!
 Static home pages are quite common for non blog-centric websites. Often for SEO purposes the page title for the home page isn't 'Home' - which can make finding it amongst the site's many pages a bit of a hassle.
 
 = Elegant Icons =
-Home Badges displays elegant icons that resemble the native user interface to identify the front and posts page on the manage pages screen, [see the screenshot here](http://http://wordpress.org/extend/plugins/home-badges/screenshots/). 
+Home Badges displays elegant icons that resemble the native user interface to identify the front and posts page on the manage pages screen.
 
 = Efficient & Minimal implementation =
 No configuration required
