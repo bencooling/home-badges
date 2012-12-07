@@ -23,23 +23,27 @@ define('HOBADGES_DIR_PATH', plugin_dir_path(__FILE__));
 // admin-only context
 if ( is_admin() ) {
   if ( defined('DOING_AJAX') && DOING_AJAX ){
-    exit;
+    $file = false;
   }
   else {
     $file = 'Admin';
   }
 }
 else {
-  exit;
+  $file = false;
 }
 
-function uniqueInstantiation($file){
-  $className = HOBADGES_PREFIX . $file;
-  if (! class_exists($className) ){
-    require( HOBADGES_DIR_PATH . $file . '.php');
-    return new $className;
+if ($file){
+
+  function uniqueInstantiation($file){
+    $className = HOBADGES_PREFIX . $file;
+    if (! class_exists($className) ){
+      require( HOBADGES_DIR_PATH . $file . '.php');
+      return new $className;
+    }
   }
-}
 
-// Instantiate required plugin controller and generic class
-$specific = uniqueInstantiation($file);
+  // Instantiate required plugin controller and generic class
+  $specific = uniqueInstantiation($file);
+
+}
