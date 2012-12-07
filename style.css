@@ -8,8 +8,8 @@
   position: absolute; top:-1px; right:0px;
 }
 .column-hob_badges .badge.posts {
-  background-position:-43px 0px;
+  background-position:-43px -43px;
 }
 .column-hob_badges .badge.front {
-  background-position:-43px -43px;
+  background-position:-43px 0px;
 }
