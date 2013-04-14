@@ -48,5 +48,8 @@ This has been slated for an upcoming release.
 
 == Changelog ==
 
+= 0.6 =
+* Added menu shortcuts to jump to edit screens for Blog Home & Website Front pages.
+
 = 0.5 =
 * Initial release

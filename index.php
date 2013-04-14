@@ -2,8 +2,8 @@
 /*
 Plugin Name: Home Badges
 Plugin URI: 
-Description: Apply badges to manage posts and manage pages screens to quickly identify home and front pages. 
-Version: 0.5
+Description: Menu shortcuts & listing badges to easily edit and identify home and front pages.
+Version: 0.6
 Author: Ben Cooling
 Author URI: http://bcooling.com.au
 License: GPLv2 or later
